@@ -1,0 +1,69 @@
+
+.agenda-home-widget{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+}
+
+.agenda-home{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#bigcalendar1{
+  width: 100%!important;
+}
+
+#calendar_1{
+  width: 100%!important;
+  display: flex;
+  justify-content: center;
+}
+
+#calendar_1 table{
+   width: 100%!important;
+  background-color: white!important;
+  color: #bdbdbd;
+}
+
+#view_tabs:parent{
+  display: none;
+}
+
+#calendar_1 td, #calendar_1 tr, #spiderCalendarTitlesList_1 td, #spiderCalendarTitlesList_1 tr{
+  height: 3.5em;
+  width: auto;
+    background-color: white!important;
+  border: none!important;
+  color: #bdbdbd;
+}
+
+#calendar_1 table tbody tr td form table tbody tr td span{
+  color: #e84e1b!important;
+}
+
+#calendar_1 table tbody tr td form table tbody tr td div b{
+  color: black!important;
+}
+
+#calendar_1 td:first-child, #calendar_1 tr:first-child{
+  height: 0px;
+}
+
+#calendar_1 td:last-child, #calendar_1 tr:last-child{
+ height: 0px!important;
+}
+
+.cell_body{
+  background-color: white!important;
+  border: none!important;
+  color: #bdbdbd;
+}
+
+#calendar_1 table tbody tr td form table tbody tr td a.thickbox-previewbigcalendar1{
+  border: 2px solid #cc3a0c;
+  padding: 5px;
+  border-radius: 100%;
+  text-decoration: none!important;
+}

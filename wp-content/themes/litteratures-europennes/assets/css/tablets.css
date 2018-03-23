@@ -1,0 +1,20 @@
+@media (min-width: 767px) and (max-width: 900px){
+  .navbar{
+    font-size: 0.8em;
+  }
+
+  .blog-footer .footer-menu{
+    height: 340px;
+  }
+
+  .footer-menu .primary-menu .menu-item-111{
+    margin-top: 4px;
+  }
+
+
+
+
+
+
+
+}

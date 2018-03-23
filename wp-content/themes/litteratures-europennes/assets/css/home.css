@@ -1,0 +1,101 @@
+.bouton-rouge-clair, .agenda-home-title{
+  padding: 5px 25px;
+  background-color: #e84e1b;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hover-bouton:hover .bouton-rouge-clair {
+  background-color: #cc3a0c;
+}
+
+.agenda-home-title{
+  font-size: 16px;
+  width: 50%;
+  letter-spacing: 1px;
+}
+
+
+.slider-home{
+  padding: 0;
+  z-index:-1;
+}
+
+.slider-home img{
+  width: 100%;
+}
+
+.border-bottom-red{
+  border-bottom: 10px solid #efb29d;
+}
+
+.icone-activite-home{
+  width: auto;
+  height: 150px;
+}
+
+.icone-bouton-home{
+  width: 16px;
+  height: 16px;
+}
+
+.activity-home{
+  background-color: #f8f8f8;
+  height: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-title{
+  color: #e84e1b;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.activity-extrait{
+  padding: 0 30px;
+  text-align: center;
+  height: 170px;
+  overflow: auto;
+  margin-bottom: 20px;
+  color: #6f6f6e;
+}
+
+.lire-suite{
+  color: #e84e1b;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.bouton-activity{
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.border-right{
+  border-right: 5px solid #ffffff;
+}
+
+.border-left{
+  border-left: 5px solid #ffffff;
+}
+
+/*SLIDER LOGOS*/
+.wp-post-image{
+    width: 100px!important;
+    height: auto;
+}
+
+.logo-slider-home{
+  margin: 50px 8vw;
+}

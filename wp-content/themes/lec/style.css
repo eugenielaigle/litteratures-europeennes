@@ -1,0 +1,227 @@
+/*
+Theme Name: LEC
+Description: Theme enfant de twentysixteen
+Author: Eugénie LAIGLE
+Author URI: https://eugenie-laigle.fr
+Template: twentysixteen
+Version: 0.1.0
+*/
+
+body{
+  font-family: 'Overpass', sans-serif;
+}
+
+.site{
+  margin: 0;
+}
+
+.site-header{
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/*MENU LAPTOP START*/
+
+.header-menu{
+ box-shadow: 0px 5px 12px #aaa;
+ width: 100%;
+ height: 70px;
+}
+
+.header-menu .navigation, .header-menu .navbar, .header-menu .menu-menu-principal-container, .header-menu .menu, .header-menu .logo, .header-menu .row-header{
+  height: 100%;
+}
+
+.header-menu .navigation{
+  padding-right: 5vw;
+}
+
+.header-menu .menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.header-menu .menu li{
+  text-transform: uppercase;
+  /*display: inline;*/
+}
+
+.header-menu .menu li a{
+  color: #6f6f6e;
+  display: inline-block;
+  /* margin: 0 30px;*/
+  border-bottom: 2px solid transparent;
+  margin-top: 2px;
+}
+
+.header-menu .menu li a:hover{
+  border-bottom: 2px solid #e84e1b;
+}
+
+.header-menu .menu .current_page_item a{
+  color: #e84e1b;
+}
+
+.header-menu .menu .current_page_item a:hover{
+  color: #e84e1b;
+  border-bottom: 2px solid tranparent;
+}
+
+.header-menu .logo a img{
+  height: 80%;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+.header-menu .sub-menu li a{
+  color: #e84e1b;
+  /*display: none;*/
+}
+
+.menu-item-has-children{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.header-menu .sub-menu li a:hover {
+  background-color: rgba(255,102,51,0.4);
+  border-bottom: none;
+}
+
+.up-menu{
+  background-color: #e84e1b;
+  /*  height: 5vh;*/
+  height: 30px;
+  width: 100%;
+}
+
+.up-menu, .socialmedia, .up-menu .row{
+  height: 100%;
+}
+
+.socialmedia{
+  display: flex;
+}
+
+.social-container{
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+}
+
+.facebook-container{
+  position: absolute;
+  background-image: url('./images/facebook.png');
+  height: 70%;
+  width: 70%;
+  margin: 15%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.twitter-container{
+  position: absolute;
+  background-image: url('./images/twitter.png');
+  height: 70%;
+  width: 70%;
+  margin: 15%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.insta-container{
+  position: absolute;
+  background-image: url('./images/insta.png');
+  height: 70%;
+  width: 70%;
+  margin: 15%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.wg-drop.country-selector .wgcurrent{
+  border: none;
+  background-color: #e84e1b;
+}
+
+.wg-drop.country-selector .wgcurrent a{
+  color:white;
+}
+
+.wg-drop.country-selector a{
+  height: 30px;
+  line-height: 30px;
+}
+
+.wg-drop.country-selector .wgcurrent:after{
+  top: 12px;
+  /*  background-image: url('../images/right-arrow.png');*/
+}
+
+.screen-reader-text{
+  display: none;
+}
+
+.search-form{
+  height: 30px;
+}
+
+.searchform, .searchform div, #s{
+  height: 100%;
+}
+
+.searchform div{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+#s{
+  background-color: #e84e1b;
+  color: white;
+  border: none;
+  padding-left: 10px;
+  width: 80%;
+}
+
+.searchform ::placeholder{
+  color: white;
+}
+
+#searchsubmit{
+  background-color: #e84e1b;
+  color: white;
+  border:none;
+}
+
+body:not(.custom-background-image):before, body:not(.custom-background-image):after{
+height: 0;
+}
+
+/*#searchform input[type=submit]{
+  background-image: url('../images/search.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+}*/
